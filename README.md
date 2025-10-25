@@ -11,7 +11,7 @@ This demo is built using the following resources:
 ## High Level Architecture
 This dapp is very simple, all it does is to demo how to use the Freigher wallet, and a smart wallet with passkeys, to connect to a the dapp and sign transactions. 
 
-The Next.js frontend has three main code files you should pay attention to. The `src/app/page.tsx`, the `src/app/components/Freighter.tsx` and the `src/app/components/Passkeys.tsx`.
+The Next.js frontend has three main code files you should pay attention to:
 
 * `src/app/page.tsx`: The main page file, it places the Freighter and Passkeys components on the page.
 * `src/components/Freighter.tsx`: This file contains everything related to the Freighter integration.

@@ -8,7 +8,10 @@ This demo is built using the following resources:
 - [Launchtube](https://github.com/stellar/launchtube)
 - [Next.js](https://nextjs.org/)
 
+## High Level Architecture
+This dapp is very simple, all it does is to demo how to use the Freigher wallet, and a smart wallet with passkeys, to connect to a the dapp and sign transactions. 
 
+The Next.js frontend has three main code files you should pay attention to. The `src/page.tsx`, the `src/components/Freighter.tsx` and the `src/components/Passkeys.tsx`.
 
 
 ## Prerequisite

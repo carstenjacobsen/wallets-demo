@@ -3,6 +3,8 @@
 ## Prerequisite
 Follow this guide to get the Stellar CLI, user account etc. setup: [Getting Started - Setup](https://developers.stellar.org/docs/build/smart-contracts/getting-started/setup)
 
+The Stellar CLI is used to build, deploy and invoke smart contracts, so even though this demo is focusing on the frontend and wallet integration, the demo depends on having a smart contract deployed.
+
 ## Deploy the Increment smart contract
 The wallets demo depends on the [increment](https://github.com/stellar/soroban-examples/tree/main/increment) smart contract from the Stellar [soroban examples](https://github.com/stellar/soroban-examples) repo. 
 
@@ -44,6 +46,11 @@ stellar contract invoke \
   hello \
   --to RPC
 ```
+
+## TypeScript bindings
+The Stellar CLI has a built-in feature to create an NPM package that makes smart contract function invocations in the frontend possible.
+
+See this step-by-step guide: [TypeScript Bindings Cheat-Sheet](https://github.com/carstenjacobsen/stellar-cheat-sheet/blob/main/frontend-bindings.md)
 
 
 

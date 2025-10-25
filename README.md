@@ -1,5 +1,16 @@
 # Wallets Demo
 
+This demo is built using the following resources:
+
+- [Stellar JS SDK](https://github.com/stellar/js-stellar-sdk)
+- [Freighter SDK](https://github.com/stellar/freighter)
+- [Passkey Kit](https://github.com/kalepail/passkey-kit)
+- [Launchtube](https://github.com/stellar/launchtube)
+- [Next.js](https://nextjs.org/)
+
+
+
+
 ## Prerequisite
 Follow this guide to get the Stellar CLI, user account etc. setup: [Getting Started - Setup](https://developers.stellar.org/docs/build/smart-contracts/getting-started/setup)
 

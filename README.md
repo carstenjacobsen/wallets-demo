@@ -1,5 +1,8 @@
 # Wallets Demo
 
+## Prerequisite
+Follow this guide to get the Stellar CLI, user account etc. setup: [Getting Started - Setup](https://developers.stellar.org/docs/build/smart-contracts/getting-started/setup)
+
 ## Deploy the Increment smart contract
 The wallets demo depends on the [increment](https://github.com/stellar/soroban-examples/tree/main/increment) smart contract from the Stellar [soroban examples](https://github.com/stellar/soroban-examples) repo. 
 

@@ -1,3 +1,22 @@
+# Wallets Demo
+
+## Deploy the Increment smart contract
+The wallets demo depends on the [increment](https://github.com/stellar/soroban-examples/tree/main/increment) smart contract from the Stellar [soroban examples](https://github.com/stellar/soroban-examples) repo. 
+
+### Clone repo
+First you clone the repo, and go to the `increment` project:
+
+```bash
+git clone https://github.com/stellar/soroban-examples.git
+cd increment
+```
+
+
+
+
+
+## Next.js stuff
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

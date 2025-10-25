@@ -11,6 +11,37 @@ git clone https://github.com/stellar/soroban-examples.git
 cd increment
 ```
 
+### Build the smart contract
+Next we build the project using the Stellar CLI:
+
+```bash
+stellar contract build
+```
+
+### Deploy the smart contract
+Next we deploy the smart contract to the network. The contract can be deployed to the Testnet or the Mainnet, for this example we deploy it to the Testnet:
+
+```bash
+stellar contract deploy \
+  --wasm target/wasm32v1-none/release/<project_name>.wasm \
+  --source alice \
+  --network testnet \
+  --alias <project_name>
+```
+
+### Test the smart contract
+Now the `increment` smart contract has been deployed, we can invoke it to test it:
+
+```bash
+stellar contract invoke \
+  --id <project_name> \
+  --source alice \
+  --network testnet \
+  -- \
+  hello \
+  --to RPC
+```
+
 
 
 
